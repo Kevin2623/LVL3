@@ -1,0 +1,16 @@
+A=[10,9,8,3,1,0]
+B=[1,9,18,33,41,50]
+C=[]
+
+def order(someList):
+
+    results = [True if second >= first else False for first, second in zip(someList, someList[1:])]
+
+    if any(results) and all(results):
+        return "ascending order"
+    elif not any(results) and not all(results):
+        return "descending order"
+ 
+print(order(A))
+print(order(B))
+print(order(C))
