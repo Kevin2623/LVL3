@@ -1,0 +1,4 @@
+1. Differentiate between Multiprocessing and Multithreading. Explain. 
+The difference is multiprocessing uses two or more CPUs to increase computing power, whereas multithreading uses a single process with multiple code segments to increase computing power. 
+Multiprocessing increases computing power by adding CPUs, whereas multithreading focuses on generating computing threads from a single process.
+And multithreading refers to the ability of a processor to execute multiple threads concurrently, where each thread runs a process. Whereas multiprocessing refers to the ability of a system to run multiple processors concurrently, where each processor can run one or more threads.
