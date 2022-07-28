@@ -1,0 +1,4 @@
+The difference between serial and parallel is serial processing you take a list of items and do whatever you want to do with them one by one. 
+It will take as long to complete the task as there are items in your list.
+While parallel processing you have means of dividing your task among 2 or more processing units, processor cores for example, so the task will take (ideally) as long as #_of_items/#_of_processing_units to complete.
+So Serial processing is a type of processing in which one task is completed. And parallel processing is a type of processing in which multiple tasks are completed at a time by different processors.
